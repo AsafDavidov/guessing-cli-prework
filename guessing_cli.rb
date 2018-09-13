@@ -18,6 +18,7 @@ end
 def run_guessing_game
   exitting = false
   puts "Guess a number between 1 and 6."
+  
   while exitting != true
     user_guess = gets.chomp
     if user_guess == 'exit'
