@@ -26,7 +26,7 @@ def run_guessing_game
       exitting = true
     else  
       user_guess_int = user_guess.to_i
-      random_int = rand(6)
+      random_int = rand(1..6)
       compare(user_guess_int, random_int)
     end
   end
